@@ -2,7 +2,7 @@
 
 local TweenService = game:GetService("TweenService")
 
-local function SimpleTween(Instance: Instance, Info: TweenInfo, Table: any, Wait: Number?) 
+local function SimpleTween(Instance: Instance, Info: TweenInfo, Table: any, Wait: bool?) 
 	local UnpackedInfo = table.unpack(Info) --//unpack as info should be a table
 	local Tween = TweenService:Create(Instance,TweenInfo.new(UnpackedInfo),Table)
 	Tween:Play()
