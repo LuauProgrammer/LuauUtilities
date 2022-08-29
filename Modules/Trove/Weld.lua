@@ -1,4 +1,5 @@
 --//Welds two parts together, yeah.
+--//i kinda helped @LuaRook with this. (not really!)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
