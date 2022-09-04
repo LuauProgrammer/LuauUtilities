@@ -112,7 +112,7 @@ function Communicator:InvokeRemoteFunctionToClient(Name,Player,...)
 end
 
 function Communicator:InvokeRemoteFunctionToAllClients(Name,...) --//This is a virtual function. It will just call FireRemoteFunctionToOtherClients
-	assert(Remotes:FindFirstChild(Name.."_FUNCTION"),"A remote event with the name "..Name.." does not exist.")
+	assert(Remotes:FindFirstChild(Name.."_FUNCTION"),"A remote function with the name "..Name.." does not exist.")
 	assert(IsServer,"Only the server can call 'InvokeRemoteFunctionToAllClients'")
 	return self:InvokeRemoteFunctionToOtherClients(Name,nil,...) --//Just use the other function cause why not
 end
