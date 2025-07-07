@@ -2,7 +2,6 @@
 	Author: LuauProgrammer
 	Date: 9/4/22
 	Script: Communicator
-	Notes: Thigh highs~
 ]]
 
 --//Services
