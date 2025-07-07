@@ -2,7 +2,6 @@
 	Author: Quintinite
 	Date: 9/11/22
 	Script: Collector
-	Notes: Boys in skirts~
 ]]
 
 --//Services
